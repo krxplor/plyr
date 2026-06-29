@@ -97,7 +97,7 @@
       gap: 8px;
       opacity: 0.42;
       pointer-events: none;
-      transition: opacity .3s, bottom .3s;
+      transition: opacity .2s, bottom .2s;
       font-family: 'Rajdhani', sans-serif;
       text-align: center;
     }
@@ -120,7 +120,7 @@
 
     #hx-watermark .wm-name {
       font-family: 'Bebas Neue', sans-serif;
-      font-size: 15px;
+      font-size: 12px;
       letter-spacing: 4px;
       color: #fff;
       text-shadow: 0 0 14px rgba(0, 255, 132, 0.35);
@@ -140,7 +140,7 @@
     .plyr:fullscreen #hx-watermark,
     .plyr:-webkit-full-screen #hx-watermark {
       bottom: 70px;
-      opacity: 0.5;
+      opacity: 0.3;
     }
 
     @media (max-width: 600px) {
@@ -187,8 +187,8 @@
         wm.innerHTML =
           '<span class="wm-rule"></span>' +
           '<span class="wm-text">' +
-            '<span class="wm-name">SPORTS<span class="r">TRACK</span></span>' +
-            '<span class="wm-url">sportstrack.me</span>' +
+            '<span class="wm-name">Epic<span class="r">Sports</span></span>' +
+            '<span class="wm-url">#KR</span>' +
           '</span>' +
           '<span class="wm-rule right"></span>';
         player.elements.container.appendChild(wm);
